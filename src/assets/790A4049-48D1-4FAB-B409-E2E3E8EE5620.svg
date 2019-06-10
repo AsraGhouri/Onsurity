@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="409px" viewBox="0 0 210 409" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>52172F01-0FA2-44F0-A164-9D203E4CB568</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="8.96619156%" x2="73.3646098%" y2="104.524509%" id="linearGradient-1">
+            <stop stop-color="#00DFEE" offset="0%"></stop>
+            <stop stop-color="#188EE0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="24" transform="translate(-1230.000000, -2187.000000)" fill="url(#linearGradient-1)">
+            <path d="M1572.38087,2349.3162 C1572.16952,2251.69818 1557.0154,2197.51224 1526.91851,2186.75837 C1494.71007,2175.25002 1441.10475,2187.1533 1395.82652,2195.7603 C1350.5483,2204.3673 1327.24733,2215.38591 1310.76684,2284.77938 C1294.28634,2354.17284 1274.33033,2368.95232 1237.46937,2461.0598 C1205.4469,2541.07695 1276.38884,2586.18006 1450.2952,2596.36914 C1564.78816,2610.59691 1629.8338,2601.92839 1645.43213,2570.36357 C1661.03045,2538.79874 1636.68003,2465.11629 1572.38087,2349.3162 Z" id="24.2"></path>
+        </g>
+    </g>
+</svg>
