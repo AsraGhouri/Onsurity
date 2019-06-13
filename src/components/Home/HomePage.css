@@ -1,0 +1,525 @@
+.HomePage{
+    background-image: 
+                      url('../../assets/1.1.svg'),
+                      url('../../assets/1- down arrow.svg'),
+                      url('../../assets/1.4.svg');
+                      /* url('../../assets/1.2.svg'); */
+    background-size:  350px, 25px, 95%; 
+    background-repeat: no-repeat;
+    background-position:100% 2%, 50% 11%, 50% 84%;
+    /* height: 3000px; */
+    height: auto;
+  }
+  .Easire-section{
+    background-image: 
+                      url('../../assets/1.3.svg'),
+                      url('../../assets/1.2.svg');
+                      /* url('../../assets/1.2.svg'); */
+    background-size:  200px, 100%;
+    background-repeat: no-repeat;
+    background-position: 0% 100%,  0% 0%;
+    height: 2400px;
+  }
+  .Hompage-body{
+    font-family: 'Inter';
+  }
+  #first-section{
+    height: 700px;
+  }
+  .one, .two, .three, .four{
+    margin-top: 50px;
+  }
+  .four{
+    height: 600px;
+  }
+  .pros-section{
+    width :100%;
+  }
+  .Mobile-Protection-that-Works-for-You {
+  display: none;
+  } 
+  /* #one{
+    height: 700px;} */
+  #easier-rows{
+    height: 500px;
+    padding: 10%;
+  }
+  /* .two{
+      height: 1800px;
+    margin-bottom: 20%;
+    } */
+  .Insurance-that-Works {
+    height: 65px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #21262c;
+  }
+  .iPhone-X{
+    width: 260px;
+    height: 450px;
+  }
+  .Simple-Smart-Affor {
+    font-size: 25px;
+    font-weight: normal;
+    text-align: center;
+    color: #69707b;
+  }
+  /* media Query */
+  #insurance-form{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#ffffff ;
+    padding: 5px 15px;
+    height: 270px;
+    width: 330px;
+    margin-top: 200px;
+    box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+  }
+  #insurance-input{
+    border-radius: 1px;
+    background-color: rgba(208, 208, 208, 0.39);
+    color: #69707b;
+    font-size: 13px;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+  }
+  #protect-my-phone{
+    margin-top: 20px;
+    border-radius: 4px;
+    box-shadow: 0 10px 40px -10px rgba(16, 169, 229, 0.5);
+    background-color: #0694d4;
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+  }
+  .Its-Easier-Than-You {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  /* .Its-easier-section{
+    position: absolute;
+    left: 50%;
+    width: 800px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  } */
+  .mark1{
+    width: 163px;
+    height: 205px;
+    opacity: 0.3;
+    font-size: 100px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -5px;
+    text-align: right;
+    float: right;
+    margin-top: -70px;
+    padding-left: -30px;
+    color: #3a3a3a;
+  }
+  .rectangle-box{
+    width: 250px;
+    height: 300px;
+    z-index: 3;
+    border: solid 1px #979797;
+    background-color: #d8d8d8;
+    padding-right: -70px;
+  }
+  .Select-your-device {
+    /* width: 319px; */
+    height: 41px;
+    /* font-size: 30px; */
+    font-weight: 500;
+    color: #0694d4;
+  }
+  .Insurance-does-not-h {
+    /* width: 400px; */
+    height: 90px;
+    font-size: 13px;
+    line-height: 1.67;
+    color: #69707b;
+  }
+  #select-device-row{
+    padding-top: 0%;
+  }
+  .check-you-price{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 10%;
+  }
+  .check-you-price .btn-secondary{
+   padding: 7px 30px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 10px 40px -10px rgba(16, 169, 229, 0.5);
+    background-color: #0694d4;
+  }
+  /* third section */
+  .Heres-Why-You-Will {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+    padding-bottom: 10%;
+  }
+  .Heres-Why-You-Will-people{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+    padding-bottom: 3%;
+  }
+  #homepage-icon1-row{
+    /* margin-top: 20%; */
+  }
+  .Coverage-for-previou {
+    font-size: 16px;
+    height: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #21262c;
+  }
+  .blue-icon{
+    width: 48.2px;
+    height: 40px;
+    top: 40%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+  .If-something-happens {
+    font-size: 14px;
+    width: 400px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: #69707b;
+  }
+  .Our-Blog {
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+   height: 100px;
+  }
+  .Ready-To-Protect-You {
+    /* width: 583px;
+    height: 49px; */
+    font-size: 37px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  .Pune {
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #69707b;
+  }
+  .four{
+    height: 1000px;
+    /* padding-top: 15% */
+  }
+  .Ketan-Mehta {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  .I-experienced-a-fraud {
+       margin: 70px;
+       font-size: 16px;
+       font-weight: normal;
+       font-style: normal;
+       font-stretch: normal;
+       line-height: 1.78;
+       letter-spacing: normal;
+       text-align: center;
+       color: #69707b;
+  }
+  #Lets-get-started {
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 2px;
+    padding: 10px 40px;
+    border: none;
+    box-shadow: 0 10px 40px -10px rgba(16, 169, 229, 0.5);
+    background-color: #0694d4;
+    left: 50%;
+    margin : 50px 0px;
+    transform: translate(-50%, -50%);
+  }
+  .protect-device{
+    height: 450px;
+    padding-top:11%;
+  }
+  .Heres-Why-You-Will {
+    height: 49px;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  .pros{
+    text-align: center;
+  }
+  /* alice carousal */
+.prev-btn, .next-btn{
+  background: none;
+  border: none;
+}
+.prev-btn{
+  float: left;
+  left: 50%;
+  top: 50%;
+  margin-left: 5%;
+  transform: translate(-0%, -100%);
+}
+.next-btn{
+  float: right;
+  right: 0%;
+  top: 50%;
+  transform: translate(-100%, -100%);
+  margin-right: 5%;
+}
+.div{
+  margin-top: -18%;
+  /* position: absolute; */
+}
+@media (max-width : 768px) {
+  #first-section{
+    padding-top: 20%;
+    height: 500px;
+  }
+  .Easire-section{
+    background-image: none;
+  }
+  .HomePage{
+    background-image: none;
+    background-image: url('../../assets//1.2.svg');
+    height: 2500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .div{
+    margin-top: -70%;
+    /* position: absolute; */
+  }
+#cards-section{
+  display: none;
+}
+.Ready-To-Protect-You {
+  font-size: 25px;
+  font-weight: 500;
+}
+.alice-carousel__prev-btn {
+  text-align: left;
+  position: absolute;
+  top: 28%;
+  transform: translate(-75%, -50%);
+}
+.If-something-happens{
+  display: none;
+}
+#homepage-icon1-row{
+  /* margin-top: 20%; */
+  height: 100px;
+}
+.pros-section {
+  margin-left: 0%;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#select-device-row{
+  padding-top: 20%;
+}
+.blue-icon{
+  width: none;
+  height: none;
+  top: none;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.Coverage-for-previou{
+  width: 120px;
+  height: 68px;
+  font-size: 14px;
+  left: 50%;
+  margin-top: 30%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.Heres-Why-You-Will {
+  font-size: 25px;
+  font-weight: 500;
+}
+#Iphone-x-gif{
+  display: none;
+}
+/*  */
+#one {
+  padding-top: 20%;
+    height: 600px;
+    text-align: center;
+  }
+  .Insurance-that-Works{
+   display: none;
+  }
+  .Mobile-Protection-that-Works-for-You {
+    width: 374px;
+    height: 82px;
+    font-size: 34px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #21262c;
+    display: block;
+  }
+  .Simple-Smart-Affor {
+    font-size: 18px;
+    text-align: left;
+  }
+  #insurance-form{
+       width: 90%;
+    height: 320px;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+  }
+  #insurance-input{
+    width: 100%;
+    height: 53px;
+    border-radius: 4px;
+    background-color: #f3f3f3;
+  }
+  .Select-your-device {
+    color: #21262c;
+    height : auto;
+}
+  .mark1{
+    text-align: left;
+    float: left;
+    margin-top: -110px;
+    margin-left: -25px;
+    font-weight: bold;
+  }
+  .rectangle-box{
+  width: 180px;
+  height: 150px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+    #select-device-row{
+      height: 400px
+    }
+  #rectangle-box-col{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+   height: 100px;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  #easier-rows{
+    padding-top: 20%;
+    height: 500px;
+    text-align: center;
+  }
+  .Insurance-does-not-h{
+    width: 300px;
+    text-align: center;
+  }
+  .check-you-price{
+    margin-top: 0px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .two{
+    height: 1400px;
+
+  }
+  #homepage-icon1-row{
+    margin-top: 10%;
+  }
+  .If-something-happens{
+    margin-top: 10px;
+  }
+  #blog-Carousal{
+    /* margin-top: 30px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%); */
+  }
+  /* .four{
+    margin-top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  } */
+}
+/*  */

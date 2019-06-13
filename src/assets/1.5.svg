@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="59px" viewBox="0 0 66 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 9</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-53.5%" y="-63.9%" width="207.0%" height="227.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0784313725   0 0 0 0 0.603921569   0 0 0 0 0.88627451  0 0 0 0.502604167 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="website-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-672.000000, -4592.000000)">
+            <g id="Group-8" transform="translate(530.000000, 4594.000000)">
+                <g id="Group-9" filter="url(#filter-1)" transform="translate(154.000000, 10.000000)">
+                    <path d="M21,36 L21,4.86486486 C22.2510478,3.39312185 23.2510478,2.42014888 24,1.94594595 C26.3349804,0.467541155 28.8579936,-1.72011727e-13 30,0 C37,1.05083509e-12 41,4.86486486 42,7.78378378 C42.5187161,9.29787399 42.5995096,12.5173753 41,15.5675676 C39.515916,18.3976484 36.5509835,20.9431162 32,25.2972973 C29.929775,27.2779976 26.2631083,30.8455652 21,36 Z" id="Path-12" fill="#149AE2"></path>
+                    <path d="M0,36 L0,4.86486486 C1.25104777,3.39312185 2.25104777,2.42014888 3,1.94594595 C5.3349804,0.467541155 7.85799355,-1.72011727e-13 9,0 C16,1.05083509e-12 20,4.86486486 21,7.78378378 C21.5187161,9.29787399 21.5995096,12.5173753 20,15.5675676 C18.515916,18.3976484 15.5509835,20.9431162 11,25.2972973 C8.929775,27.2779976 5.26310833,30.8455652 0,36 Z" id="Path-12" fill="#00DEEE" transform="translate(10.666746, 18.000000) scale(-1, 1) translate(-10.666746, -18.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

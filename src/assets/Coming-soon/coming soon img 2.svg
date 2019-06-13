@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="173px" height="271px" viewBox="0 0 173 271" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>coming soon img 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="89.4079848%" y1="-10.1607817%" x2="0%" y2="138.402461%" id="linearGradient-1">
+            <stop stop-color="#00DFEE" offset="0%"></stop>
+            <stop stop-color="#188EE0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(0.000000, -753.000000)" fill="url(#linearGradient-1)">
+            <path d="M-52,789.358051 C24.6666667,745.691384 88.3333333,741.358051 139,776.358051 C215,828.858051 139,899.557285 139,981.358051 C139,1063.15882 213,1123.35805 139,1123.35805 C105.774156,1123.35805 8.2258436,1185.53852 -25,1112.35805 C-35.7383265,1088.70671 -44.7383265,981.040041 -52,789.358051 Z" id="coming-soon-img-2"></path>
+        </g>
+    </g>
+</svg>

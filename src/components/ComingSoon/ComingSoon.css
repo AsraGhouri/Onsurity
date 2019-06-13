@@ -1,0 +1,189 @@
+.ComingSoon{
+background-image: url('../../assets/Coming-soon/coming soon img 1.svg'),
+                  url('../../assets/Coming-soon/coming soon img 2.svg');
+background-size: 150px, 150px;
+background-position:100% 15%, 0px 100%;
+background-repeat: no-repeat;
+}
+.onsurity-logo-blac{
+    width: 150px;
+}
+.navbar-nav .nav-link img{
+  height: 15px;
+}
+.Blog {
+    /* width: 47px;
+    height: 26px; */
+    font-size: 14px;
+    color: #21262c;
+    margin-top: 3px;
+  }
+  #top-nav{
+    margin: 0px 50px;
+  }
+  .ComingSoon{
+      text-align: center;
+      font-family: 'inter';
+  }
+.ComingSoon .container{
+    margin-top: 5%;
+    /* height: 300px; */
+}
+.Were-Almost-Here {
+    height: 36px;
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #21262c;
+  }
+  .And-We-Have-A-Gift-F {
+    height: 21px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #21262c;
+  }
+  .coming-soon img{
+      width: 100%;
+      margin-top: 20px;
+  }
+  .Sign-up-for-early-ac {
+    height: 21px;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #21262c;
+  }
+  .coming-soon{
+      height: 300px;
+  }
+  .input-group>.input-group-append>.btn {
+    color: #fff;
+    background-color: #0694d4;
+    border-color: #10a9e580;
+    padding: 0px 18px;
+}
+#Get-the-Discount{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13px;
+}
+.input-group {
+    width: max-content;
+    background-color: #f4f4f4;
+
+}
+.input-group>.form-control{
+    background-color: #f4f4f4;
+
+}
+input::placeholder{
+    height: 20px;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6f6f6f;
+}
+#signup{
+    height: 300px;
+}
+input{
+    background-color: #f4f4f4;
+}
+#bottom-navbar{
+    display: none;
+} 
+@media (max-width : 768px) {
+    #navbar-brand {
+        margin: 0px;
+        width: 100%;
+    }
+    .ComingSoon{
+        background-image:none;
+        background-image: url('../../assets/Coming-soon/gift mobile screen.svg');
+        background-position: 0px 35%;
+        background-size: 100%;
+        }
+    #navbar-links{
+            display: none;
+        }
+    .onsurity-logo-blac{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 30%;
+        }
+        #top-nav{
+            margin-bottom: 40%;
+            padding: 0px;
+            margin: 0px;
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+            background-color: #ffffff;
+        }
+        .coming-soon img{
+            display: none;
+        }
+        .Sign-up-for-early-ac {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* width: 60%; */
+            width: 300px;
+            height: 80px;
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.25;
+            letter-spacing: normal;
+            text-align: center;
+            color: #21262c;
+          }
+          .input-group>.input-group-append>.btn{
+              padding: 0px 5px;
+          }
+          #bottom-navbar{
+                padding: 2px 10px;
+                list-style: none;
+                display: -webkit-inline-box;
+                height: 150px;
+          } 
+          .nav-link{
+            padding: 0px
+          }
+          #signup{
+            height: 150px;
+        }
+        .ComingSoon .container{
+            margin-top: 10%;
+            /* height: 300px; */
+        }
+        .Blog {
+            font-size: 16px;
+            
+        }
+}
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) 
+and (orientation : portrait)  {
+    #bottom-navbar{
+        display: none;
+  } 
+  #navbar-links{
+    display:  -webkit-inline-box;
+}
+}

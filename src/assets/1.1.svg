@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="465px" height="836px" viewBox="0 0 465 836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="53.1325981%" x2="119.445318%" y2="71.3620999%" id="linearGradient-1">
+            <stop stop-color="#00DFEE" offset="0%"></stop>
+            <stop stop-color="#188EE0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1" transform="translate(-975.000000, -127.000000)" fill="url(#linearGradient-1)">
+            <path d="M1572.5,127 L1572.5,1057.50096 C1445.33798,1059.29643 1350.4456,1056.24703 1287.82288,1048.35278 C1123.02969,1027.57886 963.355213,978.862106 976.229359,834.023905 C1006.54821,492.927344 1230.45882,571.926395 1287.82288,492.927344 C1345.18693,413.928294 1323.5519,350.349916 1372.90093,287.746655 C1404.57879,247.560709 1471.11181,193.97849 1572.5,127 Z" id="Path-2" transform="translate(1274.000000, 592.500000) scale(1, -1) translate(-1274.000000, -592.500000) "></path>
+        </g>
+    </g>
+</svg>
