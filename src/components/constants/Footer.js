@@ -7,6 +7,7 @@ import {
 
 
 } from 'reactstrap';
+import './css/Footer.css'
 function Footer() {
     return (
         <div className="Footer">

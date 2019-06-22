@@ -1,0 +1,105 @@
+.carousal-card{
+    width: 90%;
+    height: 700px;
+}
+#non-filed-mobile-second-row .card{
+    height: 500px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+#mobile-slide-number{
+    width: 108px;
+  font-size: 80px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  /* line-height: 1.37; */
+  letter-spacing: -10px;
+  text-align: left;
+  margin-bottom: -50px;
+  margin-left: 10px;
+  color: rgba(112, 112, 112, 0.4);
+}
+.carousal-card .card-body {
+    text-align: center;
+}
+.carousal-card  .card-text{
+    color: #707070;
+    font-size: 14px;
+
+}
+.carousal-card  .card-title{
+    font-weight: 500;
+    font-size: 20px;
+}
+/* .alice-carousel__dots-item {
+    display:block;
+    width: 5px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 0%;
+    background-color: #e0e4fb;
+}
+.alice-carousel__dots-item:hover, .alice-carousel__dots-item.__active {
+    width: 5x;
+    height: 30px;
+    border-radius: 4px;
+    background-color: #0694d4;
+}
+.alice-carousel__dots {
+    margin:0px;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    margin-left: -50px;
+    transform: translate(-50%, -50%)
+} */
+.claim-mobile-side-nav-ul{
+    display: flex;
+    cursor: pointer;
+    border-radius: 0%;
+    text-align: center;
+    width: 90%;
+    height: 120px;
+    padding: auto;
+    margin: auto;
+    /* width: 50%;
+    padding: auto;
+    margin: auto; */
+}
+.claim-mobile-side-nav-ul .active{
+    cursor: pointer;
+    color:  #0594d3;
+    border-bottom: 10px solid #0594d3;
+  }
+.claim-mobile-side-nav-ul li{
+    text-align: center;
+    /* padding: 15px 10px; */
+    /* padding-left: 30px; */
+    height: 50px;
+    border-bottom: 10px solid  #d8d8d8;
+    cursor: pointer;
+    border-radius: 0%;
+    padding-top: 8px;
+    width: 80%;
+}
+.claim-mobile-side-nav-ul li:hover {
+    /* height: 40px; */
+    cursor: pointer;
+    color:  #0594d3;
+    border-bottom: 10px solid #0594d3;
+    /* border-radius: 4px; */
+  }
+#claim-top-nav{
+    text-align: center;
+}
+#install-head{
+    text-align: center;
+    font-size: 25px;
+    color:  #0694d4;
+    z-index: 3;
+}
+.record-left{
+    text-align: left;
+}

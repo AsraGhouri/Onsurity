@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="360px" viewBox="0 0 200 360" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 17</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-73.6%" y="-38.6%" width="247.3%" height="177.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.611764706   0 0 0 0 0.611764706   0 0 0 0 0.611764706  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-67.5%" y="-32.4%" width="235.0%" height="164.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.611764706   0 0 0 0 0.611764706   0 0 0 0 0.611764706  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="88.6529601%" y1="82.1150434%" x2="12.8264105%" y2="18.0082295%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" stop-opacity="0.52660779" offset="0%"></stop>
+            <stop stop-color="#EDEDED" stop-opacity="0.798570105" offset="0%"></stop>
+            <stop stop-color="#E7E7E7" stop-opacity="0.907286876" offset="0.0992759204%"></stop>
+            <stop stop-color="#A9A9A9" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-117.4%" y="-61.4%" width="334.8%" height="222.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.611764706   0 0 0 0 0.611764706   0 0 0 0 0.611764706  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="website-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="19---claims-not-filed" transform="translate(-328.000000, -5133.000000)">
+            <g id="Group-17" transform="translate(368.000000, 5171.000000)">
+                <g id="Group-12" transform="translate(6.000000, 0.000000)">
+                    <g id="other-phone-report-step1" filter="url(#filter-1)">
+                        <g id="Group-10">
+                            <g id="Group-6">
+                                <ellipse id="Oval" fill="#474646" cx="54.4242325" cy="198.043166" rx="7.26278898" ry="8.4098915"></ellipse>
+                                <path d="" id="Path-8" stroke="#979797"></path>
+                                <path d="" id="Path-9" stroke="#979797"></path>
+                                <path d="M10,0 L99.6512234,-1.77635684e-15 C105.174071,-1.26014354e-14 109.651223,4.4771525 109.651223,10 L109.651223,199.738782 C109.651223,205.26163 105.174071,209.738782 99.6512234,209.738782 L10,209.738782 C4.4771525,209.738782 -4.65271677e-15,205.26163 -5.32907052e-15,199.738782 L0,10 C-6.76353751e-16,4.4771525 4.4771525,-7.61826213e-16 10,-1.77635684e-15 Z" id="Rectangle" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <circle id="Oval" stroke="#616161" stroke-width="2" fill="#9E9E9E" cx="21.5" cy="18.5" r="7.5"></circle>
+                </g>
+                <g id="Group-8" filter="url(#filter-2)" transform="translate(0.000000, 30.000000)">
+                    <g id="Group-4">
+                        <g id="Group-3">
+                            <g id="Group-5">
+                                <rect id="Rectangle" fill="#909090" x="0" y="0" width="120" height="250" rx="13"></rect>
+                                <rect id="Rectangle" fill="#54575E" x="43" y="236" width="33" height="3" rx="1.5"></rect>
+                                <rect id="Rectangle" fill="#F6FEFF" x="0" y="26" width="120" height="199"></rect>
+                            </g>
+                            <g id="Group-7" transform="translate(43.000000, 12.000000)">
+                                <rect id="Rectangle" fill="#2D3039" x="0" y="1" width="33" height="4" rx="2"></rect>
+                                <g id="Group-2" transform="translate(38.000000, 0.000000)">
+                                    <circle id="Oval" fill="url(#linearGradient-3)" cx="3" cy="3" r="3"></circle>
+                                    <circle id="Oval" stroke="#979797" stroke-width="0.09" fill="#CED6E0" cx="3" cy="3" r="1"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-12" transform="translate(26.000000, 89.000000)">
+                    <g id="other-phone-report-step1" filter="url(#filter-4)">
+                        <g id="Group-10">
+                            <g id="Group-6">
+                                <ellipse id="Oval" fill="#474646" cx="34.1388368" cy="124.484276" rx="4.55574945" ry="5.28621751"></ellipse>
+                                <path d="" id="Path-8" stroke="#979797"></path>
+                                <path d="" id="Path-9" stroke="#979797"></path>
+                                <path d="M10,0 L58.781222,-5.32907052e-15 C64.3040695,-6.34360114e-15 68.781222,4.4771525 68.781222,10 L68.781222,121.835806 C68.781222,127.358654 64.3040695,131.835806 58.781222,131.835806 L10,131.835806 C4.4771525,131.835806 4.48155102e-15,127.358654 -3.55271368e-15,121.835806 L-1.77635684e-15,10 C-2.45271059e-15,4.4771525 4.4771525,-7.61826213e-16 10,-1.77635684e-15 Z" id="Rectangle" fill="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <circle id="Oval" stroke="#616161" stroke-width="2" fill="#9E9E9E" cx="13.5" cy="11.5" r="4.5"></circle>
+                </g>
+                <rect id="Rectangle" fill="#EBF9FF" opacity="0.357514881" x="0" y="56" width="120" height="199"></rect>
+                <polygon id="Rectangle" fill="#DEF7FF" opacity="0.33656529" points="106 56 120 56 120 255 14 255"></polygon>
+                <circle id="Oval" stroke="#FF6C6C" stroke-width="4" fill="#FF3D3D" cx="60.5" cy="241.5" r="8.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -12,17 +12,18 @@ import {
     Button,
 
 } from 'reactstrap';
+import { Link } from 'react-router-dom'
 class ComingSoon extends React.Component {
     render() {
         return (
             <div className="ComingSoon">
                 <Navbar expand="md" id="top-nav">
                     <NavbarBrand href="/" id="navbar-brand"><img src={require('../../assets/69186AA9-06A4-47CA-B7A0-472124D02D62.png')}
-                        className="onsurity-logo-blac" alt="logo" /></NavbarBrand>
+                        className="onsurity-logo-black" alt="logo" /></NavbarBrand>
                     {/* <Collapse navbar> */}
                     <Nav className="ml-auto col-sm-none" navbar id="navbar-links">
-                        <NavItem>
-                            <NavLink href="/components/" className="Blog">Blog</NavLink>
+                        <NavItem id="Blog">
+                            <Link to='./blogs'>Blog</Link>
                         </NavItem>
                         <NavItem>
                             <NavLink href="https://github.com/reactstrap/reactstrap">
@@ -66,8 +67,8 @@ class ComingSoon extends React.Component {
                     </div>
                 </div>
                 <div id="bottom-navbar" >
-                    <NavItem>
-                        <NavLink href="/components/" className="Blog">Blog</NavLink>
+                    <NavItem id="Blog">
+                        <Link to='./blogs'>Blog</Link>
                     </NavItem>
                     <NavItem>
                         <NavLink href="https://github.com/reactstrap/reactstrap">

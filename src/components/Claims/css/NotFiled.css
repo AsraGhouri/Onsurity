@@ -1,0 +1,421 @@
+.not-filed{
+    font-family: "Inter";
+}
+.You-have-not-reporte {
+    width: 550px;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-bottom: 10%;
+}
+  #get-the-app{
+      display: block;
+  }
+  #claims-social-icons{
+      margin-top: 20%;
+      position: absolute;
+      top: 50%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+  }
+  .not-filed-body{
+   margin-top: 15%;
+  }
+  #non-filed-first-row{
+      padding-top: 2%;
+      height: 400px;
+  }
+  #get-the-app .input-group>.input-group-append>.btn{
+    background-color: #0594d3;
+    padding: 0px 24px;
+    border : none;
+  }
+  #get-the-app  .input-group>.form-control {
+    background-color: #ffffff
+  }
+  .How-to-Report-a-Clai {
+    height: 49px;
+    font-size: 40px;
+    /* padding-bottom: 10%; */
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  #non-filed-second-row{
+      height: 600px;
+  }
+  .Hey-sorry-about-tha {
+    height: 29px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  .You-can-submit-photo {
+    padding: 0px 300px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  #non-filed-third-row{
+      height: 300px;
+  }
+  /* fourth row */
+  #fourth-row-mobile-columns{
+      height: 500px;
+  }
+  .image-center{
+    position: absolute;               
+    left: 20%;                         
+    transform: translate(-50, -50%) ;
+  }
+  .center-text{
+    position: absolute;  
+    left: 40%;     
+    top: 25%;                    
+    transform: translate(-50, -50%) ;
+  }
+  .Add-the-number-of-th {
+    height: 48px;
+    font-size: 16px;
+    width: 350px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  .Download-the-Onsurit {
+    height: 58px;
+    width: 350px;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #21262c;
+  }
+  .login-to-your-account{
+    position: absolute;      
+    top: 35%;                    
+    transform: translate(0, -50%) ;
+  }
+  #get-the-app .input-group>.form-control{
+    background-color: gainsboro;
+    width: 5px;
+}
+.login-to-your-account .input-group>.input-group-append>.btn {
+    background-color: #0594d3;
+    width: 130px;
+    font-size: 12px;
+    border: none;
+}
+.bg-number{
+        /* width: 163px; */
+        /* height: 205px; */
+        opacity: 0.15;
+        /* margin: -105px; */
+        font-size: 130px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: -15px;
+        margin-top: -70px;
+        margin-left: 35px;
+        text-align: center;
+        color: #3a3a3a;
+        position: absolute;
+        z-index: -3;
+}
+.damage-devices{
+    z-index: 3;
+}
+.If-you-have-any-more {
+    width: 550px;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #21262c;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding-top: 10%;
+  }
+  .If-you-have-any-more .text-style-1 {
+    color: #0694d4;
+  }
+  .not-filed-body{
+    background-repeat: no-repeat;
+    background-image:
+    url('../../../assets/claims/19.2.svg'),
+    url('../../../assets/claims/12.1.svg'),
+    url('../../../assets/claims/19.1.svg'),
+    url('../../../assets/claims/13.2.svg');
+    background-position: 0% 34%, 0% 91%, 100% 0%, 100% 55%;
+    background-size: 200px, 135px, 135px, 135px;
+  }
+  #non-filed-second-row{
+    height: 900px;
+  }
+  .non-filed-second-row::-webkit-scrollbar-track {
+    -webkit-box-shadow: transparent
+  }
+ ::-webkit-scrollbar-thumb {
+    border-radius: 3.5px;
+    background-color: #18c5ea;
+    height: 2px;
+  }
+  #non-filed-second-row{
+    display: block;
+}
+#non-filed-mobile-second-row{
+    display: none;
+}
+#non-filed-last-row{
+    height: 300px;
+}
+#claim-side-nav {
+  margin-top: -40%;
+  margin-left: 5%;
+  z-index: 3;
+}
+.claim-side-nav-ul{
+  display: inline-block;
+  /* border-left: 3px solid #0594d3; */
+  cursor: pointer;
+  border-radius: 0%;
+}
+/* #desktop-claim-carousel{
+  padding-left: 20%;
+} */
+.claim-side-nav-ul li{
+  padding-left: 30px;
+  height: 40px;
+  border-left: 6px solid  #d8d8d8;
+  cursor: pointer;
+  border-radius: 0%;
+  padding-top: 8px;
+}
+.claim-side-nav-ul li:hover {
+  height: 40px;
+  cursor: pointer;
+  color:  #0594d3;
+  border-left: 6px solid #0594d3;
+  /* border-radius: 4px; */
+}
+.claim-side-nav-ul .active{
+  height: 40px;
+  cursor: pointer;
+  color:  #0594d3;
+  border-left: 6px solid #0594d3;
+}
+  @media (max-width : 768px) {
+    .not-filed-body{
+        background-image: none;
+      }
+    #non-filed-second-row{
+      background-image: none;
+        display: none;
+    }
+    #non-filed-mobile-second-row{
+        display: block;
+        height: 600px;
+    }
+    #claims-social-icons{
+        margin: auto;
+    padding: auto;
+    width: 100%;
+    margin-top: 20%;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%)
+    }
+    #get-the-app {
+        padding-top: 20%;
+        margin: 0 auto;
+        padding: 0 auto;
+        width: 100%;
+    }
+    .not-filed-body{
+        margin-top: 60%;
+       }
+    .You-have-not-reporte{
+        width: 100%;
+        padding: 8px;
+        font-size: 13px;
+        left: 50%;
+        position: absolute;
+    /* transform: translate(-40%, -50%); */
+    }
+    .login-to-your-account {
+        position: relative;
+        top: 0%;
+        transform: translate(0, 0%);
+    }
+    .If-you-have-any-more{
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding: 0px 10px;
+    }
+    .You-can-submit-photo{
+        padding: 0px ;
+        font-size: 14px;
+    }
+    #get-the-app .input-group{
+        width: 100%;
+    }
+    #get-the-app .input-group>.input-group-append>.btn{
+        padding: 0px 5px;
+        font-size: 12px;
+    }
+    .How-to-Report-a-Clai{
+        font-size: 25px;
+        padding: 0px 20px;
+        font-weight: 500;
+        height: 80px;
+    }
+    .Download-the-Onsurit, .Add-the-number-of-th {
+        height: 30px;
+        font-size: 14px;
+        /* padding: 0px 20px; */
+        width: auto;
+        /* width: 200px; */
+    }
+    .Add-the-number-of-th{
+        /* width: 200px; */
+        font-size: 13px;
+        padding: 0px 20px;
+        width: auto;
+    }
+    #claims-social-icons #right-div{
+      float: right;
+    }
+    #claims-social-icons #left-div{
+        float: left;
+      }
+      .damage-devices {
+        width: 70%;
+        margin: 0 auto;
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        padding: 0 auto;
+    }
+      /* #claims-social-icons #right-div, #left-div, img{
+        min-width: 100px;
+      } */
+      .Hey-sorry-about-tha {
+          height: 50px;
+          font-size: 14px;
+          padding: 0px 20px;
+      }
+      .bg-number{
+        font-size: 90px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.37;
+        letter-spacing: -10px;
+        text-align: left;
+        color: #c4c4c4;
+        margin-left: 0px;
+        opacity: 1;
+      }
+      .image-center {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    }
+    /* .login-to-your-account {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, 0%);
+    } */
+    .login-to-your-account #get-the-app {
+padding-top: 2%;
+    }
+    .login-to-your-account #get-the-app .input-group{
+        width: 250px;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -0%);
+    }
+    .login-to-your-account .input-group>.input-group-append>.btn {
+        background-color: #0594d3;
+        width: 100px;
+        font-size: 12px;
+        border: none;
+    }
+    #claims-image{
+        height: 200px;
+    }
+    #fourth-row-mobile-columns {
+        height: 600px;
+    }
+    #non-filed-third-row {
+        height: 300px;
+    }
+    #non-filed-last-row{
+        height: 100px;
+    }
+    #non-filed-mobile-second-row{
+        height: 900px;
+    }
+    .install{
+        text-align: center;
+        font-size: 25px;
+        color:  #0694d4;
+    }
+    .tap{
+      text-align: right;
+      font-size: 18px;
+      font-weight: normal;
+        }
+    .arrow-right{
+        width: 10px;
+        margin-left: 5px;
+    }
+    #Download-the-Onsurit{
+        margin-top: -50px
+    }
+    #claims-social-icons .left-div img{
+       max-width: 115px;
+   }
+   #claims-social-icons .right-div img{
+    max-width: 115px;
+}
+  }

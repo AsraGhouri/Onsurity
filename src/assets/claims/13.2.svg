@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="583px" viewBox="0 0 139 583" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 6</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="-1.11022302e-14%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFEF98" offset="0%"></stop>
+            <stop stop-color="#FFDC57" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="13" transform="translate(-1301.000000, -567.000000)" fill="url(#linearGradient-1)">
+            <path d="M1511.25521,642.107906 C1518.20662,549.534949 1476.49812,542.536396 1386.12968,621.112248 C1295.76125,699.688099 1277.33999,770.006894 1330.86591,832.06863 C1387.86754,881.117943 1406.28879,927.329534 1386.12968,970.703404 C1355.89102,1035.76421 1292.28554,1090.453 1330.86591,1139.48433 C1356.58616,1172.17189 1416.71592,1172.17189 1511.25521,1139.48433 L1511.25521,642.107906 Z" id="Path-6" transform="translate(1406.500000, 865.500000) scale(1, -1) translate(-1406.500000, -865.500000) "></path>
+        </g>
+    </g>
+</svg>

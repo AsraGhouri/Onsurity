@@ -14,6 +14,8 @@ import {
     Input,
 
 } from 'reactstrap';
+import './css/Header.css';
+import { Link } from 'react-router-dom';
 class Header extends React.Component {
     constructor(props) {
         super(props);
@@ -46,8 +48,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className="Header">
-                <Navbar light expand="md" style={{ padding: '0.5rem 0rem' }} id="blog-nav">
-                    <div className="container">
+                <Navbar light expand="md" id="blog-nav">
                         <NavbarBrand href="/">
                             <img src={require('../../assets/69186AA9-06A4-47CA-B7A0-472124D02D62.png')}
                                 className="onsurity-logo-blac" alt="logo" />
@@ -66,7 +67,8 @@ class Header extends React.Component {
                         <Collapse isOpen={this.state.isOpen} id="toggle-bar" navbar >
                             <Nav className="order-first" id="navbar" navbar >
                                 <NavItem>
-                                    <NavLink href="/components/">Claims</NavLink>
+                                    <NavLink>
+                                        <Link to="/claims-not-filed">Claims</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="https://github.com/reactstrap/reactstrap">About</NavLink>
@@ -75,7 +77,8 @@ class Header extends React.Component {
                                     <NavLink href="https://github.com/reactstrap/reactstrap">FAQ</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">Contact</NavLink>
+                                    <NavLink>
+                                        <Link to='/contact-us'>Contact</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="https://github.com/reactstrap/reactstrap">Add Plan</NavLink>
@@ -123,7 +126,6 @@ class Header extends React.Component {
                                 </NavItem>
                             </Nav>
                         </Collapse>
-                    </div>
                 </Navbar>
             </div>
         );

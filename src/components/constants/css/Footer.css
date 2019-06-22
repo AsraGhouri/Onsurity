@@ -1,0 +1,239 @@
+.footer .container{
+    border-top: 3px solid #69707b;
+  }
+  .footer a{
+    /* width: 137px; */
+    height: 32px;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: 0.50px;
+    color: #69707b;
+  }
+  .footer h6{
+    width: 180px;
+    height: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #21262c;
+  }
+  /* .play-store, .app-store img{
+    height: 40px;
+  } .app-store img{
+    height: 40px;
+    margin-left: 10px;
+  }
+  #store-row{
+    padding-top: 35%;
+    padding-left: 5px;
+    display: -webkit-box;
+    display: flex;
+  } */
+  .footer p{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.78;
+    letter-spacing: 0.50px;
+    color: #69707b;
+  }
+  .get-the-app, .get-app-title{
+    display: none;
+  }
+  #social-icons{
+    display: none;
+  }
+  .post-slider-para{
+    display: none;
+  }
+  .left-div, .right-div
+  img{
+       max-width: 130px;
+  }
+  .left-div
+  img{
+       max-width: 130px;
+  }
+  .left-div
+  {
+     display: inline-block;
+     vertical-align: top;
+  }
+  .right-div
+  {
+     display: inline-block;
+     margin-left: 10px;
+  }
+  .footer .container.div {
+  border-top: none;
+  padding-top: 33%;
+  padding-left: 0px;
+  }
+  @media only screen and (max-width: 768px) {
+  .footer .container.div
+  {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  }
+  }
+  @media screen and (max-width: 600px)
+  {
+     .left-div, .right-div
+     img{
+          max-width: 100px;
+     }
+     .left-div
+     img{
+          max-width: 100px;
+     }
+  }
+  @media only screen 
+  and (min-width : 768px) 
+  and (max-width : 1024px) 
+  and (orientation : portrait)  {
+  .footer .left-div, .right-div
+  img{
+       max-width: 80px;
+  }
+  .footer .left-div
+  img{
+       max-width: 80px;
+  }
+  #login{
+    display: none
+  }
+  #download-btn .right-div img{
+   max-width: 100px;
+  }
+  #menu-buttons{
+    display: none;
+    padding-top: 30%;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 25px 20px;
+    margin-left: 0px;
+    margin-top: 0px;
+    border-bottom : none;
+    width: 100%;
+    color: black;      
+     margin-left: 8%;
+     font-weight: 400;
+  }
+  .navbar #navbar{
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+    padding: 0px;
+  }
+  #menuToggle{
+    display: none;
+  }
+    .blog-section{
+      margin-top: 15%;
+  }
+  }
+  @media only screen and (max-width: 768px) {
+    #first {
+        order: 4;
+    }
+    #second {
+        order: 1;
+    }
+    #third {
+        order: 2;
+    }
+    #fourth {
+        order: 3;
+    }
+    .footer h6{
+      width: 0px;
+      height: 0px;
+      text-align: left;
+      font-weight: 600;
+      font-size: 14px;
+      font-stretch: 2px
+    }
+    .footer a{
+      width: 0px;
+      height: 0px;
+      text-align: left;
+      font-size: 12px;
+    }
+    .footer .container{
+      border-top: none;
+      background-color: #ededed;
+      display: block;
+      margin: 0 auto;
+    }
+    #third:before {
+      content : "";
+      position: absolute;
+      /* left    : 5%; */
+      bottom  : 0;
+      height  : 1px;
+      width   : 90%;  
+      border-bottom: 2px solid #C0C0C0;
+    }
+    #fourth:before {
+      content : "";
+      position: absolute;
+      /* left    : 5%; */
+      bottom  : 0;
+      height  : 1px;
+      width   : 90%;  
+      border-bottom: 2px solid #C0C0C0;
+    }
+    #onsurity-logo{
+      display: none;
+    }
+    /* #store-row img{
+      margin: 15px;
+    }
+    #store-row{
+      display: -webkit-box;
+      display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    } */
+    .get-the-app{
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+    }
+    .get-app-title{
+    height: 21px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.17;
+    text-align: left;
+    color: #4b4b4b;
+    margin-left: 2%;
+    }
+    #social-icons{
+      display: block;
+      padding: 20px 0px;
+    }
+    #social-icons a{
+      padding: 10px;
+    }
+    #social-icons img{
+      height: 18px;
+    }
+    #social-icons {
+      display: block;
+      border-Top: 2px solid #C0C0C0;
+      border-bottom: 2px solid #C0C0C0;
+  }
+  }
