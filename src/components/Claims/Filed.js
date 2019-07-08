@@ -1,80 +1,186 @@
 import React from 'react';
 import './css/Filed.css';
-import {Motion, spring} from '../../../src/react-motion/react-motion';
-
-const springSettings = {stiffness: 170, damping: 26};
-const NEXT = 'show-next';
-
- class Filed  extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    //   photos: [[500, 350], [500, 350], [500, 350], [500, 350],[500, 350], [500, 350]],
-      currPhoto: 0,
-    };
+import Header from '../constants/Header'
+import Footer from '../constants/Footer'
+import { Card } from 'reactstrap'
+class Filed extends React.Component {
+  state = {
+    works: [
+      { productTitle: 'SAMSUNG GALAXY S9', reported: 'Screen Damage', submitOn: 'Jan 23, 2019', resolvedOn: 'Jan 29, 2019', image: require('../../assets/mybox-selected (2)/cellhelmet-tempered-glass-for-samsung-galaxy-s9.png') },
+      { productTitle: 'OPPO F11 PRO', reported: 'Screen Damage', submitOn: 'Jan 23, 2019', resolvedOn: 'Jan 29, 2019', image: require('../../assets/mybox-selected (2)/cellhelmet-tempered-glass-for-samsung-galaxy-s9.png') },
+    ]
   };
-
-  handleChange = ({target: {value}}) => {
-    this.setState({currPhoto: value});
-  };
-
-  clickHandler = (btn) => {
-    let photoIndex = btn === NEXT ? this.state.currPhoto+1 : this.state.currPhoto-1;
-
-    photoIndex = photoIndex >= 0 ? photoIndex : this.state.photos.length - 1;
-    photoIndex = photoIndex >= this.state.photos.length ? 0 : photoIndex;
-
-    this.setState({
-      currPhoto: photoIndex
-    })
-  };
-
   render() {
-    const {photos, currPhoto} = this.state;
-    const [currWidth, currHeight] = photos[currPhoto];
-
-    const widths = photos.map(([origW, origH]) => currHeight / origH * origW);
-
-    const leftStartCoords = widths
-      .slice(0, currPhoto)
-      .reduce((sum, width) => sum - width, 0);
-
-    let configs = [];
-    photos.reduce((prevLeft, [origW, origH], i) => {
-      configs.push({
-        left: spring(prevLeft, springSettings),
-        height: spring(currHeight, springSettings),
-        width: spring(widths[i], springSettings),
-      });
-      return prevLeft + widths[i];
-    }, leftStartCoords);
-
     return (
       <div>
-        <div>Scroll Me</div>
-        <button onClick={this.clickHandler.bind(null, '')}>Previous</button>
-        <input
-          type="range"
-          min={0}
-          max={photos.length - 1}
-          value={currPhoto}
-          onChange={this.handleChange} />
-        <button onClick={this.clickHandler.bind(null, NEXT)}>Next</button>
-        <div className="demo4">
-          <Motion style={{height: spring(currHeight), width: spring(currWidth)}}>
-            {container =>
-              <div className="demo4-inner" style={container}>
-                {configs.map((style, i) =>
-                  <Motion key={i} style={style}>
-                    {style =>
-                      <img className="demo4-photo" src={require(`./${i}.svg`)} style={style} />
-                    }
-                  </Motion>
-                )}
+        <Header />
+        <div className="My-Claims">
+          <h2>My Claims</h2>
+          <div className="mt-4">
+            <div className="col-lg-10 offset-lg-1" id="cuurent-claims">
+              <h3 className="Current-Claim">Current Claim</h3>
+              <div className="row" id="cuurent-claims-row">
+                <div className="col-lg-8 col-sm-12">
+                  <div className="product-details" id="claim-product-details">
+                    <h6 className="SAMSUNG-GALAXY-S9" id="order1">SAMSUNG GALAXY S9</h6>
+                    <div className="product-image-display-mobile">
+                      <img src={require('../../assets/mybox-selected (2)/cellhelmet-tempered-glass-for-samsung-galaxy-s9.png')} alt="productImage" />
+                    </div>
+                    <div className="row" id="order3">
+                      <div className="col-6">
+                        <ul>
+                          <li>
+                            <img src={require('../../assets/mybox-selected (2)/23.1(1).svg')} alt="" className="damage-icon" />
+                            Damage Reported:
+                                </li>
+                          <li>
+                            <img src={require('../../assets/mybox-selected (2)/23.2.svg')} alt="" className="status-icon" /> Status:
+                                </li>
+                        </ul>
+                      </div>
+                      <div className="col-6">
+                        <ul>
+                          <li>
+                            <span className="info">Screen Damage</span>
+                          </li>
+                          <li>
+                            <span className="info">Processing</span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="progress-bar-container container">
+                    <ul class="progressbar">
+                      <li class="active-bar">
+                        <div class="tick">
+                        </div>
+                        Reporting
+                        Damage
+                      </li>
+                      <li class="active-bar"><div class="tick">
+                      </div>
+                        Processing
+                      </li>
+                      <li class="unactive-bar" id="unactive-bar">
+                      Claim
+                      Resolved
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-lg-4 col-sm-12" id="order2">
+                  <div className="product-image-display">
+                    <img src={require('../../assets/mybox-selected (2)/cellhelmet-tempered-glass-for-samsung-galaxy-s9.png')} alt="productImage" />
+                  </div>
+                </div>
               </div>
-            }
-          </Motion>
+            </div>
+          </div>
+          {/* product history */}
+          <div className="product-history">
+            <div className="mt-4" id="product-detail-cards">
+              <div className="col-lg-10 offset-lg-1" id="cuurent-claims">
+                <h3 className="Claim-history">Claim History</h3>
+              </div>
+              <div id="product-card-history">
+                <Card id="card">
+                  <p className="Rejected">Rejected</p>
+                  <div className="row">
+                    <div className="col-lg-8 col-sm-6">
+                      <div id="claim-product-card-details">
+                        <h6 className="SAMSUNG-GALAXY-S9">SAMSUNG GALAXY S9</h6>
+                        <div className="row">
+                          <div className="col-6">
+                            <ul>
+                              <li>
+                                Damage Reported:
+                                </li>
+                              <li>
+                                Claim submitted on :
+                                </li>
+                              <li>
+                                Claim resolved on :
+                                </li>
+                            </ul>
+                          </div>
+                          <div className="col-6">
+                            <ul>
+                              <li>
+                                <span className="info">Screen Damage</span>
+                              </li>
+                              <li>
+                                <span className="info">Jan 23, 2019</span>
+                              </li>
+                              <li>
+                                <span className="info">Jan 29, 2019</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-sm-6">
+                      <div className="product">
+                        <img src={require('../../assets/mybox-selected (2)/cellhelmet-tempered-glass-for-samsung-galaxy-s9.png')} alt="productImage" />
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+              <div id="product-card-history">
+                <Card id="card">
+                  <p className="approved">Approved</p>
+                  <div className="row">
+                    <div className="col-lg-8 col-sm-6">
+                      <div id="claim-product-card-details">
+                        <h6 className="SAMSUNG-GALAXY-S9">OPPO F11 PRO</h6>
+                        <div className="row">
+                          <div className="col-6">
+                            <ul>
+                              <li>
+                                Damage Reported:
+                                </li>
+                              <li>
+                                Claim submitted on :
+                                </li>
+                              <li>
+                                Claim resolved on :
+                                </li>
+                            </ul>
+                          </div>
+                          <div className="col-6">
+                            <ul>
+                              <li>
+                                <span className="info">Screen Damage</span>
+                              </li>
+                              <li>
+                                <span className="info">Jan 23, 2019</span>
+                              </li>
+                              <li>
+                                <span className="info">Jan 29, 2019</span>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-lg-4 col-sm-6">
+                      <div className="product">
+                        <img src={require('../../assets/mybox-selected (2)/cellhelmet-tempered-glass-for-samsung-galaxy-s9.png')} alt="productImage" />
+                      </div>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </div>
+          </div>
         </div>
+        <div className="suggestion">
+          <h2><a href="/">How to Report a Claim?</a> <img src={require('../../assets/dropdown.svg')} alt="productImage" className="claim-dropdown" /></h2>
+          <h2> <a href="/">Is Your Protected Device Not Switching On? </a>  <img src={require('../../assets/dropdown.svg')} alt="productImage" className="claim-dropdown" /></h2>
+        </div>
+        <Footer />
       </div>
     );
   };

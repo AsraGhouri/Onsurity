@@ -1,18 +1,527 @@
-.demo4 {
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    height: 700px;
-    position: relative;
-  }
+.My-Claims h2{
+  height: 49px;
+  font-size: 35px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #21262c;
+}
+.My-Claims{
+  margin-top: 3%;
+}
+.Current-Claim {
+  height: 36px;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #69707b;
+}
+#cuurent-claims{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+.Claim-history{
+  height: 5px;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #69707b;
+}
+#cuurent-claims-row{
+  height: 340px;
+  height: 340px;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+}
+.SAMSUNG-GALAXY-S9 {
+  height: 28px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #21262c;
+}
+#product-card-history{
+  background-color: #f8feff;
+  margin-top: 50px; 
+  padding: 0 auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+}
+.product-history{
+  height: 700px;
+}
+#tickcontainer {
+  width: 35px;
+  height: 35px;
+}
+.tickbg {
+  content: "\00a0";
+    border: solid 20px #18c5ea;
+    border-radius: 9px;
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 100%;
+    height: 10px;
+    width: 0;
+    display: block;
+}
+#card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  /* min-width: 0; */
+  margin: auto;
+  width: 70%;
+  word-wrap: break-word;
+  background-color: transparent;
+  background-clip: border-box;
+  border: none;
+}
+.product img{
+  width: 140px;
+  height: 134px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.info{
+  margin-left: 30%;
+  text-align: left;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #69707b;
+}
+.product-image-display img{
+  width: 288px;
+  height: 276px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+.status-icon{
+  width: 14px;
+  height: 20px;
+  margin-right: 5px;
+}
+.damage-icon{
+  width: 14px;
+  height: 15px;
+  margin-right: 10px;
+}
+.product-details li{
+  line-height: 30px;
+}
+.suggestion{
+  height: 300px;
+}
+.suggestion h2{
+  font-size: 22px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 50px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #21262c;
+}
+.suggestion a{
+  color: #21262c;
+}
+.suggestion a:hover{
+  color: #18c5ea;
+}
+.claim-dropdown{
+  width: 20px;
+  height: 15px;
+  margin-left: 20px;
+}
+.progressbar-container{
+  margin-left: -30px;
+  margin-top: 10%;
+}
+#product-details{
+  padding: 50px;
+}
+.product-details{
+padding: 50px;
+  /* padding-top: 5%;
+  padding-bottom: 5%; */
+}
+.blue-tick-border{
+  background-color: #18c5ea;
+  height: 2px;
+  width: 10px;
+}
+.progressbar li {
+  list-style-type: none;
+  width: 33%;
+  float: left;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+}
+.progressbar li:before {
+  width: 30px;
+  height: 30px;
+  content: "";
+  line-height: 30px;
+  border: 2px solid #7d7d7d;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: white;
+}
+.progressbar li:after {
+  width: 100%;
+  height: 4px;
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+.progressbar li:first-child:after {
+  content: none;
+}
+.progressbar li.active {
+  color: green;
+}
+.progressbar li.active:before {
+  border-color: #18c5ea;
+  background-color: #18c5ea;
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+}
 
-  .demo4-inner {
-    overflow: hidden;
-    position: relative;
-    margin: auto;
-  }
+.progressbar li.active + li:after {
+  background-color: #18c5ea;
+}
+.progressbar li.done:before {
+  border-color: #18c5ea;
+  background-color: #18c5ea;
+  border-style: dotted solid dashed double;
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+}
+.progressbar li.done + li:after {
+  background-color: #18c5ea;
+}
+.progressbar li.inactive:before {
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+  background-color: #ffffff;
+  border: none;
+}
+.progressbar li.inactive + li:after {
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+  background-color: #ffffff
+} 
 
-  .demo4-photo {
-    position: absolute;
-    background-color: lightgray;
-  }
+.done .tick{
+  top: 13%;
+  left: 7.1em;
+}
+.progressbar li:before {
+  margin-bottom: 20px;
+}
+.active-bar .tick{
+  content: " ";
+  display: block;
+  height: 20px;
+  width: 10px;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  position: absolute;
+  /* left: 7.1em; */
+  top: 13%;
+  /* margin: 0 auto; */
+  left: 49%;
+  /* margin-top: -9px; */
+  /* margin-left: -1px; */
+  transform: rotate(45deg) translate(-50%, 0%);
+  /* z-index: 9; */
+
+}
+.progressbar p{
+  line-height: 20px;
+}
+#product-detail-cards{
+  width: 100%;
+}
+.product-image-display-mobile{
+  display: none;
+}
+.approved{
+  width: 85px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #6dc164;
+  border-top: 5px solid #6dc164;
+  border-radius: 4px;
+}
+.Rejected {
+  width: 85px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #f2987f;
+  border-top: 5px solid #f2987f;
+  border-radius: 4px;
+}
+@media (max-width : 768px) {
+  #cuurent-claims {
+width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* .product-details {
+ padding: 30px 15px;
+} */
+.product img {
+  display: none;
+}
+#order1{
+  order: 1
+}
+#order2{
+  order: 2
+}
+#order3{
+  order: 3
+}
+#product-card-history {
+ background-color: transparent;
+}
+#card{
+  width: 90%;
+  /* height: 230px; */
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+#claim-product-details{
+  padding: 10px;
+}
+.product-history {
+  height: 600px;
+}
+.claim-dropdown {
+  display: none;
+}
+.suggestion h2 {
+  height: 50px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3px;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0694d4;
+}
+.suggestion a{
+  border-bottom: 1px solid #0694d4;
+  color: #0694d4;
+  font-size: 14px;
+}
+.product-image-display{
+  display: none;
+}
+.product-image-display-mobile{
+  display: block;
+}
+.product-image-display-mobile img{
+  width: 176px;
+  height: 170.4px;
+  margin: 0 auto;
+  display: block;
+}
+#cuurent-claims-row {
+height: auto;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+}
+.tick {
+  left: 4em;
+}
+.done .tick {
+  left: 4em;
+}
+.progressbar-container{
+  margin-left: 0px;
+}
+#order3{
+  font-size: 11px;
+  margin-top: 30px;
+}
+.product-history li{
+  font-size: 14px;
+}
+.info{
+  font-size: 12px;
+  margin-left: 10px;
+}
+.product-details li {
+ font-size: 11px;
+}
+.suggestion {
+  height: 150px;
+}
+#product-details{
+  padding: 5px;
+}
+.progressbar li.active + li:after {
+  /* border-style: dashed; */
+  background-color: transparent;
+  border-top: 3px dashed  #74dcf3;
+  
+}
+.progressbar li:after {
+ background-color: transparent;
+ border-color: #18c5ea;
+}
+.approved, .Rejected {
+  margin-left: 10px;
+  width: 90px;
+  font-size: 15px
+}
+.active-bar .tick{
+  content: " ";
+  display: block;
+  height: 20px;
+  width: 10px;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  position: absolute;
+  /* left: 7.1em; */
+  top: 8%;
+  /* margin: 0 auto; */
+  left: 45%;
+  /* margin-top: -9px; */
+  /* margin-left: -1px; */
+  transform: rotate(45deg) translate(0%, 0%);
+  /* z-index: 9; */
+
+}
+#claim-product-card-details{
+  margin-left: 15px;
+}
+.My-Claims {
+  margin-top: 20%;
+}
+.My-Claims h2 {
+  margin-left: 15px;
+  text-align: left;
+  width: auto;
+  font-weight: 600;
+}
+.Current-Claim {
+  font-size: 22px;
+}
+.Claim-history {
+  font-size: 22px;
+}
+}
+.progress-bar-container  .progressbar {
+  counter-reset: step;
+}
+.progress-bar-container  .progressbar li {
+  list-style-type:  none;
+  /* width: 25%; */
+  float: left;
+  font-size: 15px;
+  position: relative;
+  text-align: center;
+  /* text-transform: uppercase; */
+  color: #777777;
+  background-color: transparent;
+}
+.progress-bar-container  .progressbar li:before {
+  width: 30px;
+  height: 30px;
+  /* content: counter(step); */
+  /* counter-increment: step; */
+  line-height: 30px;
+  border: 2px solid #17c4e9;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: #17c4e9;
+}
+.progress-bar-container  .progressbar li:after {
+  width: 100%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  /* border: dashed lightblue; */
+  /* background-color: #0694d4; */
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+.progress-bar-container  .progressbar li:first-child:after {
+  content: none;
+}
+.progress-bar-container  .progressbar li.active {
+  color: #17c4e9;
+}
+.progress-bar-container  .progressbar li.active-bar:before {
+  border-color: #17c4e9;
+}
+.progress-bar-container  .progressbar li.active-bar::after {
+  /* background-color: #0694d4; */
+  border: solid #17c4e9;
+}
+.progressbar li.unactive-bar::after {
+  border: dashed #9be4f5;
+}
+#unactive-bar {
+  color: #777777;
+}
+#unactive-bar::before{
+  background-color: white;
+  border-color: white;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.16);
+}
+#claim-product-card-details{
+  padding: 20px 0px;
+}
+.progress-bar-container{
+  color: #777777;
+}

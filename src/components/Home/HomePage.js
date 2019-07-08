@@ -2,16 +2,14 @@ import React from 'react';
 import './HomePage.css';
 import Header from '../constants/Header'
 import Footer from '../constants/Footer';
-import FontAwesome from 'react-fontawesome'
 import Dropdown from './Dropdown.js/Dropdown'
 import { Link, animateScroll as scroll } from "react-scroll";
 import '../Blogs/Blogs.css';
 import {
-    Col, Button, Form, FormGroup, Input, Card,
+    Col, Button, Form, FormGroup, Card,
     CardText,
     CardBody,
     CardLink,
-    DropdownToggle, DropdownMenu, DropdownItem
 } from 'reactstrap';
 import Gallery from './AliceCaraousal/Gallery';
 import BlogCaraousal from './AliceCaraousal/BlogCarousal';

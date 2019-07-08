@@ -1,0 +1,801 @@
+.Select-a-Plan {
+    height: 49px;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    margin-top: 2%;
+    color: #21262c;
+  }
+  #addPlan-form {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    background-color: #ffffff;
+    padding: 5px 15px;
+    height: 270px;
+    width: 300px;
+    margin-top: 2%;
+    box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+}
+.plan-form-main-div{
+  height: 300px;
+}
+.AddPlanCarousel-contaiener{
+  margin-top: 5%;
+}
+.alice-carousel__wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.add-plan-progressbar{
+  display: flex;
+}
+#product-details{
+  padding: 50px;
+}
+.product-details{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.blue-tick-border{
+  background-color: #18c5ea;
+  height: 2px;
+  width: 10px;
+}
+.add-plan-progressbar li {
+  list-style-type: none;
+  width: 100%;
+  float: left;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  color: #7d7d7d;
+}
+.add-plan-progressbar li:before {
+  width: 60px;
+  height: 60px;
+  /* content: ""; */
+  line-height: 30px;
+  /* border: 2px solid #7d7d7d; */
+  display: block;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  /* border-radius: 50%; */
+  /* background-color: white; */
+}
+.add-plan-progressbar li:after {
+  width: 100%;
+  height: 4px;
+  content: '';
+  position: absolute;
+  /* background-color: #7d7d7d; */
+  top: 20px;
+  left: -50%;
+  z-index: -1;
+}
+.add-plan-progressbar li:first-child:after {
+  content: none;
+}
+.progressbar li.active:before {
+  border-color: #abf4ff  ;
+  border-style: dotted solid dashed double;
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+}
+
+.add-plan-progressbar li.active + li:after {
+  border-color: #abf4ff  ;
+  border-style: dashed;
+}
+.add-plan-progressbar li.done:before {
+  border-color: #abf4ff  ;
+  border-style: dotted solid dashed double;
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+}
+.add-plan-progressbar li.done + li:after {
+     /* background-color: #18c5ea; */
+     border-color: #abf4ff;
+     border-style: dashed;
+}
+.add-plan-progressbar li.inactive:before {
+  /* box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61); */
+  background-color: #ffffff;
+  border: none;
+}
+.add-plan-progressbar li.inactive + li:after {
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+  background-color: #ffffff
+}
+.add-plan-progressbar li.index-active + li:after {
+    background-color: #18c5ea;
+    border-color: #18c5ea;
+    border-style: solid;
+}
+#active-plan{
+  background-color: #18c5ea;
+  width: 50px;
+    border: none;
+    height: 50px;
+    content: "";
+    box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    border-radius: 50%;
+    line-height: 30px;
+}
+.done .tick{
+  top: 13%;
+  left: 7.1em;
+}
+.add-plan-progressbar li:before {
+  margin-bottom: 20px;
+}
+#plan-icon{
+  width: 50px;
+  border: none;
+  height: 50px;
+  content: "";
+  box-shadow: 0 2px 32px -6px rgba(157, 157, 157, 0.61);
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  line-height: 30px;
+  background-color: white;
+}
+.phone-image{
+  width: 20px;
+  height: 35px;
+}
+/* .tick{
+  content: " ";
+  display: block;
+  height: 20px;
+  width: 10px;
+  border: solid white;
+  border-width: 0 0.2em 0.2em 0;
+  position: absolute;
+  left: 7.1em;
+  top: 14%;
+  margin-top: -9px;
+  margin-left: -1px;
+  transform: rotate(45deg);
+  z-index: 9;
+} */
+.add-plan-progressbar p{
+  line-height: 20px;
+}
+#Mid {
+  width: 150px;
+  height: 30px;
+  font-size: 25px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #18c5ea;
+}
+#mid-price{
+  width: 150px;
+  height: 80px;
+  opacity: 0.15;
+  font-size: 50px;
+  font-weight: 800;
+  font-family: 'Inter';
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: -2.11px;
+  text-align: left;
+  color: #3a3a3a;
+}
+#mid-lorem{
+  width: 100%;
+  height: 20px;
+  font-size: 15px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #69707b;
+}
+#mid-button{
+padding: 10px 35px;
+margin-top: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px -10px rgba(16, 169, 229, 0.5);
+  background-color: #0694d4;
+  border: none;
+  margin: 0 auto;
+  display: block;
+}
+#select-tenure{
+display: block;
+margin: 0 auto;
+width: 20%;
+}
+.PlanDetails{
+      /* margin-top: 10%; */
+      width: 80%;
+      margin: auto;
+      padding-top: 2%;
+      width: 818px;
+      padding-bottom: 5%;
+      height: auto;
+      border-radius: 4px;
+      box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+      background-color: #ffffff;
+}
+.SAMSUNG-GALAXY-S9 {
+  width: 254px;
+  height: 28px;
+  font-size: 23px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #21262c;
+}
+.-MONTH-OLD {
+  width: 99px;
+  height: 17px;
+  -webkit-text-stroke: 1px #979797;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2f2f2f;
+}
+.-YEAR-SCREEN-PROTEC {
+  width: 201px;
+  height: 17px;
+  -webkit-text-stroke: 1px #979797;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2f2f2f;
+}
+.Have-a-coupon-code-o {
+  height: 19px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #69707b;
+}
+#coupen-apply{
+    margin: auto;
+    width: 50%;
+}
+.Coupon-code-is-inval {
+  height: 19px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ff5c2f;
+}
+.list-item{
+  text-align: left;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #69707b;
+}
+.item-price{
+  text-align: right;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #69707b;
+}
+#item-details{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+    /* padding-top: 2%; */
+}
+#sum-up{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 2%;
+  border-top: 2px solid #69707b;
+  padding-top: 2%;
+}
+#main-product{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  border-bottom: 2px solid #69707b;
+}
+/* .progressbar-container{
+  width: 50%;
+} */
+#progressbar-container{
+  margin-top: 2%;
+  margin: 0 auto;
+}
+#progressbar-container p{
+ padding-top: 5%;
+}
+#check-out{
+  padding: 5px 40px;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px -10px rgba(16, 169, 229, 0.5);
+  background-color: #0694d4;
+  border: none;
+  margin: 0 auto;
+  margin-top: 5%;
+  font-size: 15px;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px -10px rgba(16, 169, 229, 0.5);
+  background-color: #0694d4;
+  display: block;
+}
+#apply{
+  opacity: 1;
+  border-radius: 4px;
+  background-image: #00dfee;
+  background-color: #00dfee;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  /* color: #353a3f; */
+  color: black;
+  border: none;
+}
+#coupan{
+  border: none;
+  border-radius: 4px;
+  /* background-color: #dfdfdf; */
+  color: black;
+}
+#coupan-code{
+  border: none;
+  background-color:rgba(208, 208, 208, 0.39); 
+}
+.form-control{
+  border: none;
+}
+.to-pay{
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #21262c;
+}
+.to-pay-price{
+  font-size: 20px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #21262c;
+}
+.Install-the-Onsurity {
+  width: 400px;
+  height: 72px;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #21262c;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 80%;
+}
+#activate-input{
+  max-width: 358px;
+}
+#activat-col-one{
+  /* margin: 0px 10px;
+  position: absolute; */
+  transform: translate(0%, -50%);
+  top: 10%;
+}
+.activate-social-section{
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 80%;
+  margin-top: 15%;
+}
+#activity-social-icons{
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  width: fit-content;
+  margin-top: 5%;
+}
+.activate-phone{
+width: 90%;
+}
+.add-plan-carousel-mb{
+  display: none;
+}
+@media (max-width : 768px) {
+  #activate-input button{
+    font-size: 11px;
+  }
+  .add-plan-carousel{
+    display: none;
+  }
+  .add-plan-carousel-mb{
+    display: block;
+  }
+  #addPlan-form {
+    height: 400px;
+    width: 90%;
+    margin-top: 10%;
+}
+
+#addPlan-form .dd-header-title {
+  margin: 2px 30px;
+  /* margin-right: 50px; */
+  font-size: 18px;
+  height: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #777777;
+}
+#addPlan-form .dd-header {
+  height: 60px;
+  font-size: 25px;
+}
+/* #addPlan-form  #protect-my-phone {
+  padding: 14px 10px;
+  font-size: 18px;
+  margin-top: 45px;
+} */
+.radial-list{
+  left: 60%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 10%;
+}
+.device-icon{
+  margin-right: 5px;
+}
+.select-device{
+  height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: left;
+  color: #21262c;
+}
+.select-plan{
+  height: 17px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #69707b;
+  cursor: pointer;
+}
+.select-device:hover{
+  text-decoration: underline;
+  cursor: pointer;
+  color: #0694d4;
+}
+.radial-list-2{
+  left: 35%;
+  top: 50%;
+  position: absolute;
+  /* -webkit-transform: translate(-20%); */
+  transform: translate(-20%, -50%);
+}
+.back{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  height: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0694d4;
+}
+#select-tenure {
+  display: block;
+  margin: 0 auto;
+  width: 271px;
+}
+#select-tenure .dd-header-title {
+  font-weight: 100;
+  margin: 10px 10px;
+  font-size: 16px;
+}
+.addplan-cards .card {
+  margin: 10px;
+  /* width: 280px;
+  height: 389px; */
+  width: 95%;
+  border-radius: 4px;
+  box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+  background-color: #ffffff;
+  border: none;
+}
+.container.addplan-cards{
+  /* width: 80%; */
+}
+.add-plan-carousel-mb .alice-carousel .alice-carousel__wrapper{
+  position: relative;
+  /* width: 100%; */
+  height: auto;
+  font-size: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* padding-left: 35px;
+  padding-right: 25px; */
+}
+.container.addplan-cards .alice-carousel .alice-carousel__wrapper{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.activate-social-section {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 80%;
+  margin-top: 100%;
+}
+.activate-phone {
+  width: 80%;
+  margin: auto;
+  display: block;
+  margin-top: 20%;
+}
+#phone-image img{
+  display: block;
+}
+.PlanDetails {
+  width: 100%;
+  box-shadow: none;
+}
+.SAMSUNG-GALAXY-S9 {
+  height: 20px;
+  font-size: 14px;
+  width: 100%;
+  font-weight: 500;
+  line-height: normal;
+  color: #21262c;
+}
+.-YEAR-SCREEN-PROTEC, .-MONTH-OLD  {
+  height: 12px;
+  -webkit-text-stroke: initial;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 5%;
+  text-align: left;
+  color: #69707b;
+  /* color: #2f2f2f; */
+}
+#coupen-apply {
+  display: none;
+}
+#main-product {
+  border-bottom: none;
+  height: 120px;
+}
+.item-details-row{
+  background-color: #e0f3ff;
+  padding-top: 10px;
+  padding-bottom: 20%;
+}
+#check-out {
+  padding: 10px 40px;
+}
+.Redeem-gift{
+  display: block;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  color: #1ba4db;
+}
+.Install-the-Onsurity {
+  width: 70%;
+  font-size: 13px;
+}
+.addplan-cards .card {
+ height: 100%;
+}
+#Mid {
+  height: 59px;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0d92af;
+  margin-left: 5px;
+  margin-top: 10px;
+  width: 100%;
+}
+#mid-button {
+  padding: 10px 40px;
+  margin-top: 30px;
+}
+.addplan-cards .card {
+  margin: 10px;
+  /* width: 335px; */
+  height: 350px;
+  border-radius: 4px;
+  box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+  background-color: #ffffff;
+  border: none;
+}
+}
+#radial-one{
+  margin: 10px;
+  padding-top: 5%;
+}
+.Redeem-gift{
+  display: none;
+}
+.radial-first-row{
+  display: -webkit-box;
+  margin: auto;
+  width: 60%;
+  padding: 0;
+}
+#mobile-checkout-card-one{
+  background-image: url('../../../assets/mybox-selected (2)/6.3 (1).svg');
+  background-repeat: no-repeat;
+}
+#mobile-checkout-card-two{
+  background-image: url('../../../assets/mybox-selected (2)/1.png');
+  background-repeat: no-repeat;
+}
+#mobile-checkout-card-three{
+  background-image: url('../../../assets/mybox-selected (2)/6.3 (1).svg');
+  background-repeat: no-repeat;
+}
+#addplan-card-one{
+  /* width: 100%; */
+  /* height: 500px; */
+}
+.add-plan-card-ul{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+}
+.add-plan-left-card{
+  left: 50%;
+  top: 50%;
+  transform: translate(20%, 5%);
+}
+.add-plan-left-card .card, .add-plan-right-card .card{
+  height: 400px;
+}
+.add-plan-right-card{
+  left: 50%;
+  top: 50%;
+  transform: translate(-20%, 5%);
+}
+.add-plan-middle-card{
+  z-index: 3;
+}
+.add-plan-middle-card .card{
+  height: 450px
+}
+.add-plan-card-ul .card-body {
+  flex: 1 1 auto;
+  padding: 0px 10px;
+}
+.add-plan-middle-card    #mid-price{
+    width: 200px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    height: 70px;
+}
+.add-plan-middle-card #mid-lorem {
+  width: 230px;
+  height: 30px;
+}
+.add-plan-left-card #mid-price{
+  width: 180px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  height: 70px;
+}
+.add-plan-left-card #mid-lorem {
+  width: 200px;
+  height: 30px;
+}
+.add-plan-right-card #Mid {
+  text-align: right;
+  width: 170px;
+}
+.add-plan-right-card #mid-price {
+  text-align: right;
+  width: 200px;
+  font-weight: 500;
+  font-size: 40px;
+  height: 70px;
+}
+.add-plan-right-card #mid-lorem {
+  width: 220px;
+  text-align: right;
+  height: 30px;
+}
+.add-plan-card-ul #mid-button {
+  margin-top: 15%;
+  padding: 10px 40px;
+}
+.add-plan-middle-card  #mid-button {
+  margin-top: 20%;
+}
+.add-plan-card-ul .card{
+  border: none;
+  box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
+}

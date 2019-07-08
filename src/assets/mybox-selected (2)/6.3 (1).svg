@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="321px" height="92px" viewBox="0 0 321 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 12</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#CBA400" offset="0%"></stop>
+            <stop stop-color="#F9F1D1" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#EFBF02" offset="0%"></stop>
+            <stop stop-color="#FFF4C8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFDF62" offset="0%"></stop>
+            <stop stop-color="#FFFBED" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="website-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6" transform="translate(-843.000000, -576.000000)">
+            <g id="Group-13" transform="translate(843.000000, 576.000000)">
+                <g id="Group-12">
+                    <path d="M0.706865107,6 L178.012204,6.54094771 C180.216568,6.54767309 182,8.33655443 182,10.5409291 L182,78.5101671 C151.546534,91.8905313 108.987973,95.3170576 54.3243193,88.7897461 C41.5095978,87.2595578 23.4014914,84.043322 -1.26287869e-15,79.1410385 L0.706865107,6 Z" id="Rectangle" fill="url(#linearGradient-1)"></path>
+                    <path d="M9.21547332e-13,7.55620025 C0.143368626,6.01324401 0.389248609,5.03229339 0.737639947,4.61334839 C1.51170215,3.6825288 3.17903611,3.63963988 3.60930162,3.63250861 C53.8984932,2.7990098 130.390656,2.78927875 233.08579,3.60331547 L233.08579,3.60331334 C235.153522,3.61970369 236.867937,5.20938072 237.040184,7.26999135 L241,54.64183 C207.791095,79.1818076 163.933025,88.3373837 109.425792,82.1085582 C67.6817747,77.3382518 31.2065106,68.399384 0,55.2919547 L9.21547332e-13,7.55620025 Z" id="Rectangle" fill="url(#linearGradient-2)"></path>
+                    <path d="M2.51033652,1.07523936 L316.986331,0.000598124826 C319.195457,-0.00695099829 320.992428,1.77777977 320.999977,3.98690587 C320.999992,3.99146216 321,3.99601846 321,4.00057477 L321,77.4651318 C290.717404,91.8872411 248.233986,95.5766815 193.549748,88.5334532 C111.52339,77.9686106 78.5570393,56.4353213 54.600225,43.1533357 C39.6194666,34.8477982 21.8283621,21.9978191 1.22691159,4.60339839 L1.22689572,4.60341718 C0.382913554,3.89081779 0.276406763,2.62895912 0.989006149,1.78497695 C1.36748007,1.33672335 1.92367667,1.07724412 2.51033652,1.07523936 Z" id="Rectangle" fill="url(#linearGradient-3)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

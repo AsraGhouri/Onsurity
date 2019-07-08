@@ -68,7 +68,7 @@ class Header extends React.Component {
                             <Nav className="order-first" id="navbar" navbar >
                                 <NavItem>
                                     <NavLink>
-                                        <Link to="/claims-not-filed">Claims</Link></NavLink>
+                                        <Link to="/claims-filed">Claims</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="https://github.com/reactstrap/reactstrap">About</NavLink>
@@ -81,7 +81,8 @@ class Header extends React.Component {
                                         <Link to='/contact-us'>Contact</Link></NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">Add Plan</NavLink>
+                                    <NavLink >
+                                        <Link to="/add-plan">Add Plan</Link></NavLink>
                                 </NavItem>
                             </Nav>
                             <Nav className="ml-auto" id="menu-buttons" navbar>

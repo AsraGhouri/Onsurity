@@ -19,8 +19,17 @@
 #navbar .nav-item .nav-link {
   color: black;
 }
+#navbar .nav-item .nav-link:hover {
+  color: #0694d4;
+}
 .nav-link a {
   color: black;
+}
+.Header #navbar a:hover {
+  color: #0694d4;
+}
+ .nav-item a:hover {
+  color: #0694d4;
 }
 .onsurity-logo-blac {
     /* width: 136px; */
@@ -196,10 +205,9 @@
         padding: 10px 0px;
     }
       #menu-buttons{
-          display: block;
-          padding-top: 30%;
-          padding-bottom: 20%
-          /* padding: 30px; */
+          top: 100%;
+        height: 10%;
+        transform: translate(0%, 100%);
       }
       #menu-buttons #download-btn {
         padding-right: 0px;
@@ -242,9 +250,6 @@
          font-weight: 400;
          height: 100%;
     }
-    /* .navbar-light ,.navbar-nav .nav-link {
-      height: 100%;
-    } */
     .navbar #navbar{
       padding: 0px;
       background-color: #ededed;
@@ -253,7 +258,7 @@
     }
     .navbar-collapse {
       background-color: #ededed;
-      min-height: 100%;
+      height: 100vh;
   }
   #login {
     font-size: 15px;

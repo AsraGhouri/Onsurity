@@ -50,33 +50,8 @@
     box-sizing: border-box;
     position: relative;
     width: 100%;
-    /* height: 600px; */
     margin: auto;
 }
-/* .alice-carousel__dots-item {
-    display: flex;
-    width: 5px;
-    height: 40px;
-    cursor: pointer;
-    border-radius: 0%;
-    background-color: #e0e4fb;
-}
-.alice-carousel__dots-item:hover, .alice-carousel__dots-item.__active {
-    width: 5x;
-    height: 30px;
-    border-radius: 4px;
-    background-color: #0694d4;
-}
-.alice-carousel__dots {
-    margin:0px;
-    text-align: center;
-    list-style: none;
-    padding: 0;
-    position: absolute;
-    top: 40%;
-    margin-left: -50px;
-    transform: translate(-50%, -50%)
-} */
 .number-of-carousal{
     font-size: 130px;
     font-weight: 600;

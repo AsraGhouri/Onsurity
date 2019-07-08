@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="97.5" height="97.5" viewBox="0 0 97.5 97.5">
+  <g id="_004_on4" data-name="004 on4" transform="translate(-544 -318)">
+    <g id="radial-_01_04-_select_device" data-name="radial- 01/04- select device" transform="translate(452 184)">
+      <g id="Group_1406" data-name="Group 1406" transform="translate(8 77)">
+        <circle id="Ellipse_3" data-name="Ellipse 3" cx="48.75" cy="48.75" r="48.75" transform="translate(84 57)" fill="#ededed"/>
+        <circle id="Ellipse_2" data-name="Ellipse 2" cx="40.721" cy="40.721" r="40.721" transform="translate(92.029 65.029)" fill="#fff"/>
+      </g>
+      <text id="_04" data-name="04" transform="translate(114 199)" fill="#d1d1d1" font-size="50" font-family="Avenir-Black, Avenir" font-weight="800" letter-spacing="-0.1em"><tspan x="0" y="0">04</tspan></text>
+    </g>
+    <g id="radial-_01_04-_select_device-2" data-name="radial- 01/04- select device" transform="translate(452 184)">
+      <g id="Group_1406-2" data-name="Group 1406" transform="translate(8 77)">
+        <g id="Ellipse_3-2" data-name="Ellipse 3" transform="translate(84 57)" fill="none" stroke="#17c4e9" stroke-width="8">
+          <circle cx="48.75" cy="48.75" r="48.75" stroke="none"/>
+          <circle cx="48.75" cy="48.75" r="44.75" fill="none"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
