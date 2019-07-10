@@ -1,5 +1,4 @@
 import React from 'react';
-import AliceCarousel from 'react-alice-carousel';
 import '../css/AddPlan.css'
 import PlanForm from '../AddPlanSections/PlanForm'
 import Activate from '../Activate/Activate'
@@ -81,7 +80,7 @@ class MobileCarousal extends React.Component {
                 </div>
             </div>
             <PlanDetails /></div>,
-        <div style={{ height: '580px' }}>
+        <div style={{ height: '650px' }}>
             <div className="container" id="radial-one">
                 <div className="row">
                     <div className="col-2">
@@ -122,26 +121,15 @@ class MobileCarousal extends React.Component {
     slide = (index) => {
         this.setState({ currentIndex: index });
     }
-    // thumbItem = (item, i) => <span onClick={() => this.slideTo(i)}>* </span>
 
     galleryItems() {
         return this.items.map((i) => <h2 key={i}> {i}</h2>)
     }
     
     render() {
-        const { galleryItems, responsive, currentIndex } = this.state
+        const {currentIndex } = this.state
         return (
             <div className="add-plan-carousel-mb">
-                {/* <AliceCarousel
-                   dotsDisabled={true}
-                   buttonsDisabled={true}
-                   mouseDragEnabled={false}
-                   items={galleryItems}
-                   swipeDisabled
-                   responsive={responsive}
-                   slideToIndex={currentIndex}
-                   onSlideChanged={this.onSlideChanged}
-                /> */}
                 {
                     currentIndex === 0 ? this.items[0] : ''
                 }
