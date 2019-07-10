@@ -9,6 +9,7 @@ import {
     CardLink,
 
 } from 'reactstrap';
+import { Link } from 'react-router-dom'
 import Header from '../constants/Header';
 import Footer from '../constants/Footer';
 import Gallery from './AliceCaraousal/Gallery';
@@ -36,7 +37,7 @@ class Blogs extends React.Component {
                                     <p className="Insurance-is-a-very">Insurance is a very old indusrty, it’s been around longer than we actually know.
                                         And now, it’s changing faster than ever…</p>
                                     <p>
-                                        <a href="#!" id="tech-read-more">Read more <i className="fas fa-angle-right"></i></a>
+                                        <Link to='/' id="tech-read-more">Read more <i className="fas fa-angle-right"></i></Link>
                                     </p>
                                 </div>
                             </div>

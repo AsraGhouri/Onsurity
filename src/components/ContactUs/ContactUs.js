@@ -3,8 +3,7 @@ import './ContactUs.css';
 import Header from '../constants/Header';
 import Footer from '../constants/Footer';
 import {
-  Button, Form, FormGroup, Label, Input, Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle,
+  Button, Form, FormGroup, Input, Card, CardImg, CardText, CardBody,
 } from 'reactstrap';
 class ContactUs extends React.Component {
 

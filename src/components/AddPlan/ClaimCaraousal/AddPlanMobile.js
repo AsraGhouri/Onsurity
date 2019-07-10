@@ -1,13 +1,7 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
-import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
-} from 'reactstrap';
-// import '../css/MobileCarousal.css'
 import '../css/AddPlan.css'
 import PlanForm from '../AddPlanSections/PlanForm'
-// import AddPlancards from '../addPlanCards/AddPlanCards'
 import Activate from '../Activate/Activate'
 import PlanDetails from '../PlanDetails/PlanDetails'
 import AddPlancardsMobile from '../addPlanCards/AddPlanCardsMobile';
@@ -122,12 +116,6 @@ class MobileCarousal extends React.Component {
         this.setState({ currentIndex: e.item });
         this.setState({ active: true });
     }
-
-    // slideNext = () => {
-    //     this.setState({ currentIndex: this.state.currentIndex + 1 });
-    // }
-    // slidePrev = () => this.setState({ currentIndex: this.state.currentIndex - 1 })
-
     slide = (index) => {
         debugger
         this.setState({ currentIndex: index });

@@ -7,6 +7,7 @@ import {
 
 
 } from 'reactstrap';
+import { Link } from 'react-router-dom'
 import './css/Footer.css'
 function Footer() {
     return (
@@ -36,18 +37,18 @@ function Footer() {
                             <div className="container social-icons" id="social-icons">
                                 {/* <hr /> */}
                                 <div className="text-center center-block">
-                                    <a href="https://www.facebook.com/bootsnipp">
+                                    <Link to="/tps://www.facebook.com/bootsnipp">
                                         <img src={require('../../assets/Facebook-footer.svg')} alt="social-icons" />
-                                    </a>
-                                    <a href="https://twitter.com/bootsnipp">
+                                    </Link>
+                                    <Link to="/tps://twitter.com/bootsnipp">
                                         <img src={require('../../assets/twitter-icon.svg')} alt="social-icons" />
-                                    </a>
-                                    <a href="https://plus.google.com/+Bootsnipp-page">
+                                    </Link>
+                                    <Link to="/tps://plus.google.com/+Bootsnipp-page">
                                         <img src={require('../../assets/instagram-icon.svg')} alt="social-icons" />
-                                    </a>
-                                    <a href="mailto:bootsnipp@gmail.com">
+                                    </Link>
+                                    <Link to="/ilto:bootsnipp@gmail.com">
                                         <img src={require('../../assets/Linkedin-footer.svg')} alt="social-icons" />
-                                    </a>
+                                    </Link>
                                 </div>
                                 {/* <hr /> */}
                             </div>
@@ -60,28 +61,28 @@ function Footer() {
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="#!">About</a>
+                                    <Link to="/">About</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Claims</a>
+                                    <Link to="/">Claims</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Terms of Use</a>
+                                    <Link to="/">Terms of Use</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Cookie</a>
+                                    <Link to="/">Cookie</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Privacy Policy</a>
+                                    <Link to="/">Privacy Policy</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Contact</a>
+                                    <Link to="/">Contact</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">FAQ</a>
+                                    <Link to="/">FAQ</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Blog</a>
+                                    <Link to="/">Blog</Link>
                                 </li>
                             </ul>
                         </div>
@@ -91,16 +92,16 @@ function Footer() {
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="#!">Log Out</a>
+                                    <Link to="/">Log Out</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">My Plans</a>
+                                    <Link to="/">My Plans</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Edit Profile</a>
+                                    <Link to="/">Edit Profile</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">Add Plan</a>
+                                    <Link to="/">Add Plan</Link>
                                 </li>
                             </ul>
 
@@ -111,10 +112,10 @@ function Footer() {
 
                             <ul className="list-unstyled">
                                 <li>
-                                    <a href="#!">info@onsurity.com</a>
+                                    <Link to="/">info@onsurity.com</Link>
                                 </li>
                                 <li>
-                                    <a href="#!">+1 234 234 2346</a>
+                                    <Link to="/">+1 234 234 2346</Link>
                                 </li>
                             </ul>
                         </div>

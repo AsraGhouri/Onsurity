@@ -71,7 +71,6 @@ class AddPlancardsMobile extends React.Component {
         paddingRight: 50,
     }
     render() {
-        const handleOnDragStart = e => e.preventDefault()
         return (
             <div className="container addplan-cards">
                 <div id="select-tenure">
@@ -92,7 +91,6 @@ class AddPlancardsMobile extends React.Component {
                     dotsDisabled={true} buttonsDisabled={true}>
                     <div>
                         <Card id="mobile-checkout-card-one">
-                            {/* <img width="100%" src={require('../../../assets/mybox-selected (2)/6.3 (1).svg')} alt="Card image cap" /> */}
                             <CardBody style={{ padding: '0px' }}>
                                 <CardText id="Mid">Basic</CardText>
                                 <div style={{ padding: '1rem 1.25rem'}}>
@@ -108,8 +106,6 @@ class AddPlancardsMobile extends React.Component {
                     </div>
                     <div>
                         <Card id="mobile-checkout-card-two">
-                            {/* <h3 id="Mid">Mid</h3> */}
-                            {/* <img width="100%" src={require('../../../assets/mybox-selected (2)/1.png')} alt="Card image cap" /> */}
                             <CardBody style={{ padding: '0px' }}>
                                 <CardText id="Mid">Mid</CardText>
                                 <div style={{ padding:'1rem 1.25rem' }}>
@@ -125,7 +121,6 @@ class AddPlancardsMobile extends React.Component {
                     </div>
                     <div>
                         <Card id="mobile-checkout-card-three">
-                            {/* <img width="100%" src={require('../../../assets/mybox-selected (2)/6.3 (1).svg')} alt="Card image cap" /> */}
                             <CardBody style={{ padding: '0px' }}>
                                 <CardText id="Mid">Complete</CardText>
                                 <div style={{ padding: '1rem  1.25rem' }}>

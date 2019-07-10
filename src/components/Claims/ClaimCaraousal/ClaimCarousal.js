@@ -2,9 +2,6 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import '../css/ClaimCarousal.css'
-import classnames from 'classnames';
-// import { Link, animateScroll as scroll } from "react-scroll";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 class ClaimCarousal extends React.PureComponent {
     items = [<div className="box one" id="install">
         <div className="row mt-4" style={{marginRight: '0px'}}>
@@ -77,10 +74,7 @@ class ClaimCarousal extends React.PureComponent {
     }
 
     render() {
-        const handleOnDragStart = e => e.preventDefault()
-        // const classNames = this.currentIndex === index ? ' __active' : '';
-        const { galleryItems, responsive, currentIndex, active } = this.state
-        // let classes = classnames('active', {active: this.state.active});
+        const { galleryItems, responsive, currentIndex } = this.state
         return (
             <div className="row">
                 <AliceCarousel

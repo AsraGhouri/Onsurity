@@ -3,6 +3,7 @@ import './css/Filed.css';
 import Header from '../constants/Header'
 import Footer from '../constants/Footer'
 import { Card } from 'reactstrap'
+import { Link } from 'react-router-dom';
 class Filed extends React.Component {
   state = {
     works: [
@@ -50,19 +51,19 @@ class Filed extends React.Component {
                       </div>
                     </div>
                   </div>
-                  <div class="progress-bar-container container">
-                    <ul class="progressbar">
-                      <li class="active-bar">
-                        <div class="tick">
+                  <div className="progress-bar-container container">
+                    <ul className="progressbar">
+                      <li className="active-bar">
+                        <div className="tick">
                         </div>
                         Reporting
                         Damage
                       </li>
-                      <li class="active-bar"><div class="tick">
+                      <li className="active-bar"><div className="tick">
                       </div>
                         Processing
                       </li>
-                      <li class="unactive-bar" id="unactive-bar">
+                      <li className="unactive-bar" id="unactive-bar">
                       Claim
                       Resolved
                       </li>
@@ -177,8 +178,8 @@ class Filed extends React.Component {
           </div>
         </div>
         <div className="suggestion">
-          <h2><a href="/">How to Report a Claim?</a> <img src={require('../../assets/dropdown.svg')} alt="productImage" className="claim-dropdown" /></h2>
-          <h2> <a href="/">Is Your Protected Device Not Switching On? </a>  <img src={require('../../assets/dropdown.svg')} alt="productImage" className="claim-dropdown" /></h2>
+          <h2><Link to="/">How to Report a Claim?</Link> <img src={require('../../assets/dropdown.svg')} alt="productImage" className="claim-dropdown" /></h2>
+          <h2> <Link to="/">Is Your Protected Device Not Switching On? </Link>  <img src={require('../../assets/dropdown.svg')} alt="productImage" className="claim-dropdown" /></h2>
         </div>
         <Footer />
       </div>

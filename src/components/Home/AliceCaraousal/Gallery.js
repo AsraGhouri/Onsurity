@@ -1,12 +1,6 @@
 import React from 'react';
 import AliceCarousel from 'react-alice-carousel'
 import "react-alice-carousel/lib/alice-carousel.css"
-import {
-    Button,
-    Card,
-    CardBody,
-    CardLink,
-} from 'reactstrap';
 class Gallery extends React.Component {
     items = [1, 2, 3, 4, 5]
 

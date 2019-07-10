@@ -14,7 +14,6 @@ class AddPlanCarousel extends React.PureComponent {
         currentIndex: 0,
         responsive: { 1024: { items: 1 } },
         galleryItems: this.galleryItems(),
-        active: false
     }
 
     slideTo = (i) => {
@@ -23,7 +22,6 @@ class AddPlanCarousel extends React.PureComponent {
 
     onSlideChanged = (e) => {
         this.setState({ currentIndex: e.item });
-        this.setState({ active: true });
     }
 
     slideNext = () => {
@@ -44,15 +42,12 @@ class AddPlanCarousel extends React.PureComponent {
     }
 
     render() {
-        const handleOnDragStart = e => e.preventDefault()
-        // const classNames = this.currentIndex === index ? ' __active' : '';
-        const { galleryItems, responsive, currentIndex, active } = this.state
-        // let classes = classnames('active', {active: this.state.active});
+        const { galleryItems, responsive, currentIndex} = this.state
         return (
             <div className="add-plan-carousel" >
-                <div class="AddPlanCarousel-contaiener" style={{height: currentIndex === 0 ? '500px' : 'auto' }}>
+                <div className="AddPlanCarousel-contaiener" style={{height: currentIndex === 0 ? '500px' : 'auto' }}>
                     <div className="progressbar-container col-md-6 offset-md-3" id="progressbar-container">
-                        <ul class="add-plan-progressbar">
+                        <ul className="add-plan-progressbar">
                             <li className={currentIndex >= 0 ? 'index-active' : 'done'}>
                                 <button id={currentIndex >= 0 ? 'active-plan' : 'plan-icon'} onClick={() => this.slide(0)}>
                                     <img src={require('../../../assets/mybox-selected (2)/25.1.svg')} alt="phone" className="phone-image" />
@@ -71,7 +66,7 @@ class AddPlanCarousel extends React.PureComponent {
                                 </button>
                                 <p>Checkout</p>
                             </li>
-                            <li class="inactive">
+                            <li className="inactive">
                                 <button id={currentIndex >= 3 ? 'active-plan' : 'plan-icon'} onClick={() => this.slide(3)} className={currentIndex === 3 ? 'active-plan' : ''}>
                                     <img src={require('../../../assets/mybox-selected (2)/6.3.svg')} alt="phone" className="phone-image" />
                                 </button>

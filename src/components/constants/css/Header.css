@@ -177,10 +177,9 @@
 /* end */
 #menu-buttons{
    margin-top: 10px;
-   /* padding: 20px; */
 }
 #menu-buttons #download-btn{
-  padding-right: 5px;
+  padding-right: 5px; 
 }
 #login{
     color : #0694d4;
@@ -191,6 +190,16 @@
 .Header #navbar a {
   color: black;
   text-decoration: none;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: black;
+  padding: 15px;
+  margin-top: -10px;
 }
 @media (max-width : 768px) {
     #blog-nav{
@@ -213,11 +222,11 @@
         padding-right: 0px;
         border: none;
     }
-    #menu-buttons #download-btn .nav-link{
+    #menu-buttons #download-btn a{
       border: none;
       padding: 10px 5px;
     }
-    #menu-buttons  #my-account-nav .nav-link{
+    #menu-buttons  #my-account-nav a{
       border: none;
       padding: 10px 5px;
     }

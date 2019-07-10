@@ -2,7 +2,7 @@ import React from 'react';
 import AliceCarousel from 'react-alice-carousel';
 import {
     Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button
+    CardTitle
 } from 'reactstrap';
 import '../css/MobileCarousal.css'
 class MobileCarousal extends React.Component {
@@ -76,7 +76,6 @@ class MobileCarousal extends React.Component {
         paddingRight: 10,
     }
     render() {
-        const handleOnDragStart = e => e.preventDefault()
         const { galleryItems, responsive, currentIndex } = this.state
         return (
             <div >

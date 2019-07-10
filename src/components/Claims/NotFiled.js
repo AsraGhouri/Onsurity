@@ -5,8 +5,6 @@ import {
     InputGroup,
     InputGroupAddon,
     Input,
-
-
 } from 'reactstrap';
 import { Link } from 'react-router-dom'
 import Header from '../constants/Header';
@@ -49,17 +47,9 @@ class NotFiled extends React.Component {
                         <h4 className="How-to-Report-a-Clai">
                             How to Report a Claim?
                             </h4>
-                        {/* <div className="row" style={{ marginRight: '0px' }}> */}
-                            {/* <div className="col-md-1" id="claim-side-nav">
-                                    <ul className="claim-side-nav-ul">
-                                        <li> Install</li>
-                                        <li>Tap</li>
-                                        <li>Record</li>
-                                    </ul>
-                                </div> */}
-                            <div className="col-md-12" id="desktop-claim-carousel">
-                                <ClaimCarousal />
-                            </div>
+                        <div className="col-md-12" id="desktop-claim-carousel">
+                            <ClaimCarousal />
+                        </div>
                         {/* </div> */}
                     </div>
                     <div id="non-filed-mobile-second-row">
@@ -167,8 +157,8 @@ class NotFiled extends React.Component {
                         </div>
                         <div id="non-filed-last-row">
                             <p className="If-you-have-any-more ">If you have any more questions about the process, or anything
-                        else related to your plan, you can check out the <a href="/" className="text-style-1">FAQs</a> or reach
-                        out to our team <a href="/" className="text-style-1">here</a>.</p>
+                        else related to your plan, you can check out the <Link to='/' className="text-style-1">FAQs</Link> or reach
+                        out to our team <Link to="/" className="text-style-1">here</Link>.</p>
                         </div>
                     </div>
                 </div>

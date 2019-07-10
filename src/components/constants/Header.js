@@ -7,7 +7,6 @@ import {
     NavbarBrand,
     Nav,
     NavItem,
-    NavLink,
     Button,
     InputGroup,
     InputGroupAddon,
@@ -67,37 +66,34 @@ class Header extends React.Component {
                         <Collapse isOpen={this.state.isOpen} id="toggle-bar" navbar >
                             <Nav className="order-first" id="navbar" navbar >
                                 <NavItem>
-                                    <NavLink>
-                                        <Link to="/claims-filed">Claims</Link></NavLink>
+                                        <Link to="/claims-filed">Claims</Link>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">About</NavLink>
+                                    <Link to="/">About</Link>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">FAQ</NavLink>
+                                    <Link to='/'>FAQ</Link>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink>
-                                        <Link to='/contact-us'>Contact</Link></NavLink>
+                                        <Link to='/contact-us'>Contact</Link>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink >
-                                        <Link to="/add-plan">Add Plan</Link></NavLink>
+                                        <Link to="/add-plan">Add Plan</Link>
                                 </NavItem>
                             </Nav>
                             <Nav className="ml-auto" id="menu-buttons" navbar>
                                 <NavItem id="download-btn">
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">
+                                    <Link to="/">
                                         <div className="dropdown">
                                             <Button outline id="download-app">Download App</Button>
-                                            <div class="dropdown-content">
+                                            <div className="dropdown-content">
                                                 <div className=" tip tip-up"></div>
-                                                <a href="#" id="input-addon">
+                                                <Link to="/" id="input-addon">
                                                     <InputGroup id="download-addon-btn">
                                                         <Input placeholder="Mobile number" />
                                                         <InputGroupAddon addonType="append"><Button>Send App Link</Button></InputGroupAddon>
                                                     </InputGroup>
-                                                </a>
+                                                </Link>
                                                 <div className="container div">
                                                     <div className="left-div left-text">
                                                         Google Play
@@ -110,20 +106,20 @@ class Header extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </NavLink>
+                                    </Link>
                                 </NavItem>
                                 <NavItem id="my-account-nav">
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">
+                                    <Link to="/">
                                         <div className="dropdown">
                                             <Button id="my-account">My Account</Button>
-                                            <div class="dropdown-content">
+                                            <div className="dropdown-content">
                                                 <div className=" tip tip-up"></div>
-                                                <a href="#">My Plans</a>
-                                                <a href="#">Edit Profile</a>
-                                                <a href="#">Log Out</a>
+                                                <Link to="/">My Plans</Link>
+                                                <Link to="/">Edit Profile</Link>
+                                                <Link to="/">Log Out</Link>
                                             </div>
                                         </div>
-                                    </NavLink>
+                                    </Link>
                                 </NavItem>
                             </Nav>
                         </Collapse>
