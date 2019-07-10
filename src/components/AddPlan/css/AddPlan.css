@@ -22,7 +22,7 @@
     box-shadow: 0 2px 32px -6px rgba(208, 208, 208, 0.39);
 }
 .plan-form-main-div{
-  height: 300px;
+  height: 600px;
 }
 .AddPlanCarousel-contaiener{
   margin-top: 5%;
@@ -694,7 +694,7 @@ width: 90%;
 }
 }
 #radial-one{
-  margin: 10px;
+  margin: 10px 0;
   padding-top: 5%;
 }
 .Redeem-gift{
